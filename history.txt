@@ -1,0 +1,186 @@
+    1  shutdown -h now
+    2  sudo vim /etc/environment 
+    3  apt-get update
+    4  sudo apt-get update
+    5  apt-get install cntlm
+    6  sudo apt-get install cntlm
+    7  sudo vim /etc/cntlm.conf 
+    8  cntlm -H
+    9  sudo vim /etc/cntlm.conf 
+   10  sudo cntlm -H
+   11  sudo vim /etc/cntlm.conf 
+   12  vim ~/.bashrc 
+   13  reboot
+   14  sudo reboot
+   15  ifconfig 
+   16  sudo apt-get update
+   17  vim /etc/environment 
+   18  sudo vim /etc/environment 
+   19  sudo reboot
+   20  sudo apt-get update
+   21  netstat -nat
+   22  sudo vim /etc/cntlm.conf 
+   23  vim ~/.bashrc 
+   24  sudo vim /etc/environment 
+   25  sudo apt-get update
+   26  vim ~/.bashrc 
+   27  source ~/.bashrc 
+   28  sudo apt-get update
+   29  sudo shutdown -h now
+   30  sudo vim /etc/cntlm.conf 
+   31  sudo apt-get update
+   32  sudo apt-get upgrade
+   33  sudo shutdown -h now
+   34  ifconfig
+   35  apt-get update
+   36  sudo apt-get update
+   37  aptitude search llvm
+   38  sudo apt-get install aptitude
+   39  sudo aptitude search llvm
+   40  sudo apt-get install llvm
+   41  sudo apt-get install clang
+   42  git
+   43  pwd
+   44  ls -la
+   45  mkdir Documents
+   46  cd Documents/
+   47  git clone https://github.com/CraneStation/wasi-sysroot.git
+   48  cd wasi-sysroot/
+   49  make install INSTALL_DIR=/tmp/wasi
+   50  sudo apt-get install make
+   51  make install INSTALL_DIR=/tmp/wasi
+   52  mkdir /tmp/wasi
+   53  make install INSTALL_DIR=/tmp/wasi
+   54  cd ..
+   55  curl https://get.wasmer.io -sSfL | sh
+   56  source /home/francisco/.wasmer/wasmer.sh
+   57  mkdir WASM
+   58  cd WASM/
+   59  vim example.c
+   60  clang --target=wasm32-unknown-wasi --sysroot /tmp/sysroot 
+   61  clang --target=wasm32-unknown-wasi --sysroot /tmp/sysroot -O2 -s -o example.wasm example.c
+   62  clang --version
+   63  clang file.c -fsyntax-only
+   64  clang example.c -fsyntax-only
+   65  whereis stdio.h
+   66  clang --target=wasm32-unknown-wasi --sysroot /tmp/sysroot -O2 -s -o example.wasm example.c
+   67  clang -I/usr/include/ --target=wasm32-unknown-wasi --sysroot /tmp/sysroot -O2 -s -o example.wasm example.c
+   68  clar
+   69  clear
+   70  exit
+   71  sudo apt-get purge llvm  clang
+   72  git clone https://github.com/emscripten-core/emsdk.git
+   73  cd emsdk/
+   74  ./emsdk install latest
+   75  ./emsdk activate lates
+   76  ./emsdk activate latest
+   77  source ./emsdk_env.sh
+   78  cd ..
+   79  cd Documents/
+   80  emcc -v
+   81  cd WASM/
+   82  ls -la
+   83  vim hello_world.c
+   84  emcc hello_world.c 
+   85  ls -la
+   86  node a.out.js 
+   87  node -v
+   88  rm a.out.*
+   89  mkdir hellowasm
+   90  cd hellowasm/
+   91  mv ../hello_world.c .
+   92  emcc hello_world.c -o hello_world.wasm
+   93  ls -la
+   94  cat hello_world.
+   95  cat hello_world.wasm 
+   96  xtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermxtermq!
+   97  ls -la
+   98  cat hello_world.c
+   99  vim teste.html
+  100  mkdir js
+  101  vim js/scripts.js
+  102  vim fib.c
+  103  vim js/scripts.js
+  104  ls -la
+  105  emcc fib.c -o js/fib.wasm
+  106  ls -la js/
+  107  emcc fib.c -o js/fib.js js/fib.wasm 
+  108  emcc fib.c -o js/fib.wasm -o js/fib.js
+  109  aptitude search apache
+  110  sudo apt-get install apache2
+  111  service apache2 start
+  112  service apache2 status
+  113  ifconfig
+  114  cd ..
+  115  mv -Rf hellowasm/ /var/www/html/
+  116  mv -f hellowasm/ /var/www/html/
+  117  sudo mv -f hellowasm/ /var/www/html/
+  118  cd /var/www/html/
+  119  ls -la
+  120  ls -la hellowasm/
+  121  sudo chown www-data:www-data hellowasm/
+  122  sudo chmod 777 hellowasm/
+  123  cd hellowasm/
+  124  vim js/scripts.js 
+  125  vim /etc/mime.types 
+  126  sudo vim /etc/mime.types 
+  127  service apache2 restart
+  128  clear
+  129  vim /etc/apache2/sites-enabled/000-default.conf 
+  130  sudo vim /etc/apache2/sites-enabled/000-default.conf 
+  131  service apache2 restart
+  132  sudo vim /etc/apache2/sites-enabled/000-default.conf 
+  133  sudo vim /etc/apache2/apache2.conf 
+  134  sudo vim /etc/apache2/mods-enabled/mime.conf 
+  135  service apache2 restart
+  136  sudo vim /etc/apache2/apache2.conf 
+  137  sudo vim /etc/apache2/mods-enabled/mime.load 
+  138  sudo vim /etc/apache2/mods-enabled/mime.conf 
+  139  vim js/fib.js 
+  140  vim js/scripts.js 
+  141  vim fib.c 
+  142  emcc fib.c -O3 -s WASM=1 -s SIDE_MODULE=1 -s EXPORTED_FUNCTIONS='["_fib"]' -o js/fib.wasm
+  143  ls -la js/
+  144  rm js/fib.js 
+  145  vim js/fib.js 
+  146  vim teste.html 
+  147  emcc fib.c -O3 -s WASM=1 -s SIDE_MODULE=1 -s EXPORTED_FUNCTIONS='["_fib"]' -o js/fib.wasm -o js/fib.js
+  148  emcc fib.c -O3 -s WASM=1 -s SIDE_MODULE=1 -s EXPORTED_FUNCTIONS='["_fib"]' -o js/fib.wasm
+  149  vim js/fib.js 
+  150  rm js/fib.js 
+  151  emcc fib.c -O3 -s WASM=1 -s SIDE_MODULE=1 -s EXPORTED_FUNCTIONS='["_fib"]' -o js/fib.wasm
+  152  vim js/fib.js 
+  153  vim teste.html 
+  154  emcc fib.c -o js/fib.wasm -o js/fib.js
+  155  vim js/fib.js 
+  156  vim teste.html 
+  157  ls 
+  158  mv fib.c js/
+  159  cd js
+  160  ls -la
+  161  emcc -s WASM=1 -o fib.js fib.c -s EXPORTED_FUNCTIONS='["_fib"]' -s EXTRA_EXPORTED_RUNTIME_METHODS='["ccall", "cwrap"]'
+  162  wasmer run fib.wasm 
+  163  vim fib.c 
+  164  emcc -s WASM=1 -o fib.js fib.c -s EXPORTED_FUNCTIONS='["_fib", "_main"]' -s EXTRA_EXPORTED_RUNTIME_METHODS='["ccall", "cwrap"]'
+  165  vim fib.c 
+  166  emcc -s WASM=1 -o fib.js fib.c -s EXPORTED_FUNCTIONS='["_fib", "_main"]' -s EXTRA_EXPORTED_RUNTIME_METHODS='["ccall", "cwrap"]'
+  167  vim fib.c 
+  168  emcc -s WASM=1 -o fib.js fib.c -s EXPORTED_FUNCTIONS='["_fib", "_main"]' -s EXTRA_EXPORTED_RUNTIME_METHODS='["ccall", "cwrap"]'
+  169  vim fib.c 
+  170  emcc -s WASM=1 -o fib.js fib.c -s EXPORTED_FUNCTIONS='["_fib", "_main"]' -s EXTRA_EXPORTED_RUNTIME_METHODS='["ccall", "cwrap"]'
+  171  wasmer run fib.wasm 
+  172  vim fib.c 
+  173  emcc -s WASM=1 -o fib.js fib.c -s EXPORTED_FUNCTIONS='["_fib", "_main"]' -s EXTRA_EXPORTED_RUNTIME_METHODS='["ccall", "cwrap"]'
+  174  vim fib.c 
+  175  emcc -s WASM=1 -o fib.js fib.c -s EXPORTED_FUNCTIONS='["_fib", "_main"]' -s EXTRA_EXPORTED_RUNTIME_METHODS='["ccall", "cwrap"]'
+  176  vim fib.c 
+  177  emcc -s WASM=1 -o fib.js fib.c -s EXPORTED_FUNCTIONS='["_fib", "_main"]' -s EXTRA_EXPORTED_RUNTIME_METHODS='["ccall", "cwrap"]'
+  178  wasmer run fib.wasm 
+  179  cd ..
+  180  git init
+  181  git add *.*
+  182  git commit -m "first commit"
+  183  git remote add origin https://github.com/rockchico/hellowasm.git
+  184  git push -u origin master
+  185  vim gitinit
+  186  history > history.txt
